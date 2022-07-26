@@ -29,37 +29,77 @@ h3 {
     text-shadow: 0px 0px 5px red;      
 }
 
-a:link,a:visited {
+th a:link, th a:visited {
+    font-family: 'Berkshire Swash', cursive;
     text-decoration: none;
-    font-size: 2em;
-    margin-left: 0.4em;
+    font-size: 2em;    
     text-shadow: 0px 0px 5px red;
-   
- 
-  
+    background-color: rgb(85, 87, 235);
+    color: aliceblue;
+    border-radius: 5px 5px; 
+    padding: 0.1em;
+    width: 5.4em; 
+    display: inline-block; 
+    transition: width 1s;
+    margin-left: 0.2em;
 }
 
-a:hover, a:active {
+th a:hover, th a:active {
     text-decoration: underline;  
-    color: rgb(68, 65, 65);
+    color: rgb(248, 248, 248);
     text-shadow: 0px 0px 5px red;
+    width: 6em;
+          
 }
 
-ul, li {
+li {
     list-style-type: none;
     font-size: 1.1em;
     font-family: 'Berkshire Swash', cursive;
     text-shadow: 0px 0px 5px red;
     
+   
+    
+    
 }
 tr {
     display: inline-block;
-    height: 0.2em;
-    margin-bottom: 0em;
+    padding: 0.5em;
+    height: 4em;
+    margin-bottom: 0em;    
     transform: skew(20deg, -1deg);
-   
+    background-color: rgb(241, 82, 19);
+    border-radius: 20px 80px 850px 40px;
+    width: 40em; 
+    transition: width 1s;  
+ } 
+ tr:hover{
+    width: 40em;
+ }
+ th {
+    width: 12em;
+    display: inline-block;
  }
  img {
     box-shadow: 3px 7px 10px 5px rgb(148, 146, 146);
-    
  }
+ li img {
+    box-shadow: 3px 7px 10px 5px rgb(148, 146, 146);
+    transition: width 0.5s;
+ }
+li img:hover {
+    width: 33em;    
+
+}
+.box-1 {
+    width: 50%;
+    float: left;
+}
+.box-1 {
+    width: 50%;
+}
+@media screen and (max-width: 600px) {
+   [class*="box-"] { width: 100%;
+    
+}
+}
