@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    font-family: "sofia", sans-serif;
+    color: rgb(100, 13, 240);
+    font-size: 3em;
+    margin-bottom: 0.1em;
+}
+
+p {
+    color:rgb(10, 96, 153);
+    font-size: 2em;
+    font-family: "caveat";
+}
+
+h2 {
+    font-family: "sofia", sans-serif;
+    color: rgb(100, 13, 240);
+    font-size: 3em;
+    text-shadow: 0px 0px 5px red;
+    
+}
+h3 {
+    font-family: "sofia", sans-serif;
+    color: rgb(100, 13, 240);
+    font-size: 3em; 
+    text-align: center;   
+    margin-bottom: 0px;
+    z-index: 3;
+    text-shadow: 0px 0px 5px red;      
+}
+
+a:link,a:visited {
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 0.4em;
+    text-shadow: 0px 0px 5px red;
+   
+ 
+  
+}
+
+a:hover, a:active {
+    text-decoration: underline;  
+    color: rgb(68, 65, 65);
+    text-shadow: 0px 0px 5px red;
+}
+
+ul, li {
+    list-style-type: none;
+    font-size: 1.1em;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 0px 0px 5px red;
+    
+}
+tr {
+    display: inline-block;
+    height: 0.2em;
+    margin-bottom: 0em;
+    transform: skew(20deg, -1deg);
+   
+ }
+ img {
+    box-shadow: 3px 7px 10px 5px rgb(148, 146, 146);
+    
+ }
