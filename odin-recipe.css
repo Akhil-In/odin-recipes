@@ -72,9 +72,10 @@ tr {
     border-radius: 20px 80px 850px 40px;
     width: 40em; 
     transition: width 1s;  
+    box-shadow: 2px 1px 15px 15px rgb(184, 180, 187);
  } 
  tr:hover{
-    width: 40em;
+    width: 82em;
  }
  th {
     width: 12em;
@@ -88,7 +89,7 @@ tr {
     transition: width 0.5s;
  }
 li img:hover {
-    width: 33em;    
+    width: 34em;    
 
 }
 .box-1 {
